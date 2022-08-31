@@ -1,6 +1,8 @@
 //Nom du fichier : ParentComponent.js
+//Ajout de ce commentaire
 import React from 'react';
 import Tabs from './Tabs';
+
 const ParentComponent = () => {
   const tabs = [
     {
