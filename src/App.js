@@ -1,7 +1,6 @@
 import './App.css';
-import './Tabs.css'
+import './Tabs.css';
 import ParentComponent from './ParentComponent';
-import Tabs from './Tabs.js';
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
       <ParentComponent />
     </div>
   );
-}
+};
 
 export default App;
-// voir contributions !!! image et paragraphe ne s'ffichent pas
+// voir contributions !!! image et paragraphe ne s'affichent pas
