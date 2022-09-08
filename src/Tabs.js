@@ -8,15 +8,14 @@ const Tabs = ({tabs, children}) => {
   const handleTabClick = (tab) => setActiveTabId(tab.id);
 
   const activeTabContent = children.filter((child) => {
-    return child.props.id === activeTabId;
+    return child.props.id == activeTabId;
   });
 
-  
   const tabsTemplate = tabs.map((tab) => {
     return (
       <li 
         key={tab.id}
-        className={tab.id === activeTabId ? 'active' : null}
+        className={tab.id == activeTabId ? 'active' : null}
         onClick={() => handleTabClick(tab)}
       >
         {tab.label}
